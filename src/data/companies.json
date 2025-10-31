@@ -1,0 +1,256 @@
+[
+  {
+    "id": 1,
+    "name": "TechNova Solutions",
+    "industry": "Information Technology",
+    "location": "Bangalore, India",
+    "founded": 2012,
+    "employees": 250,
+    "website": "https://www.technova.com",
+    "description": "TechNova provides cloud computing and data analytics services for enterprises."
+  },
+  {
+    "id": 2,
+    "name": "GreenLeaf Organics",
+    "industry": "Agriculture",
+    "location": "Hyderabad, India",
+    "founded": 2015,
+    "employees": 80,
+    "website": "https://www.greenleaforganics.com",
+    "description": "A sustainable farming startup focused on organic produce and eco-friendly practices."
+  },
+  {
+    "id": 3,
+    "name": "Finverse Capital",
+    "industry": "Finance",
+    "location": "Mumbai, India",
+    "founded": 2010,
+    "employees": 120,
+    "website": "https://www.finversecapital.com",
+    "description": "Finverse Capital provides investment banking and financial consulting services."
+  },
+  {
+    "id": 4,
+    "name": "HealthBridge Labs",
+    "industry": "Healthcare",
+    "location": "Pune, India",
+    "founded": 2018,
+    "employees": 60,
+    "website": "https://www.healthbridge.com",
+    "description": "A healthcare technology company developing telemedicine platforms for hospitals."
+  },
+  {
+    "id": 5,
+    "name": "EduSmart Learning",
+    "industry": "Education",
+    "location": "Chennai, India",
+    "founded": 2016,
+    "employees": 40,
+    "website": "https://www.edusmartlearning.com",
+    "description": "Provides e-learning tools and online course management solutions for schools."
+  },
+  {
+    "id": 6,
+    "name": "UrbanNest Constructions",
+    "industry": "Real Estate",
+    "location": "Delhi, India",
+    "founded": 2009,
+    "employees": 300,
+    "website": "https://www.urbannestconstructions.com",
+    "description": "Residential and commercial construction firm known for sustainable design."
+  },
+  {
+    "id": 7,
+    "name": "CloudGen Systems",
+    "industry": "Software",
+    "location": "Noida, India",
+    "founded": 2013,
+    "employees": 180,
+    "website": "https://www.cloudgensystems.com",
+    "description": "Specializes in SaaS-based CRM and ERP product development."
+  },
+  {
+    "id": 8,
+    "name": "BrightWave Media",
+    "industry": "Marketing",
+    "location": "Kolkata, India",
+    "founded": 2017,
+    "employees": 55,
+    "website": "https://www.brightwavemedia.com",
+    "description": "Digital marketing agency focusing on brand strategy, SEO, and social media."
+  },
+  {
+    "id": 9,
+    "name": "AquaPure Technologies",
+    "industry": "Environmental",
+    "location": "Ahmedabad, India",
+    "founded": 2014,
+    "employees": 95,
+    "website": "https://www.aquapuretech.com",
+    "description": "Develops smart water purification and waste-management systems."
+  },
+  {
+    "id": 10,
+    "name": "SecureLink Networks",
+    "industry": "Cybersecurity",
+    "location": "Gurugram, India",
+    "founded": 2011,
+    "employees": 220,
+    "website": "https://www.securelinknetworks.com",
+    "description": "Provides cybersecurity consulting and network protection services."
+  },
+  {
+    "id": 11,
+    "name": "NextGen Robotics",
+    "industry": "Robotics",
+    "location": "Bangalore, India",
+    "founded": 2019,
+    "employees": 75,
+    "website": "https://www.nextgenrobotics.com",
+    "description": "Designs and manufactures autonomous industrial robots for logistics and manufacturing."
+  },
+  {
+    "id": 12,
+    "name": "EcoFuel Energy",
+    "industry": "Renewable Energy",
+    "location": "Hyderabad, India",
+    "founded": 2013,
+    "employees": 140,
+    "website": "https://www.ecofuelenergy.com",
+    "description": "Produces biofuels and renewable energy solutions for urban and rural sectors."
+  },
+  {
+    "id": 13,
+    "name": "MediCare Diagnostics",
+    "industry": "Healthcare",
+    "location": "Chennai, India",
+    "founded": 2015,
+    "employees": 60,
+    "website": "https://www.medicarediagnostics.com",
+    "description": "Provides advanced diagnostic and medical testing services across South India."
+  },
+  {
+    "id": 14,
+    "name": "BlueOcean Shipping",
+    "industry": "Logistics",
+    "location": "Mumbai, India",
+    "founded": 2008,
+    "employees": 500,
+    "website": "https://www.blueoceanshipping.com",
+    "description": "Offers global shipping and supply chain management services."
+  },
+  {
+    "id": 15,
+    "name": "AgriEdge Technologies",
+    "industry": "Agriculture",
+    "location": "Pune, India",
+    "founded": 2017,
+    "employees": 85,
+    "website": "https://www.agriedgetechnologies.com",
+    "description": "Uses IoT and AI to optimize crop yields and water usage for farmers."
+  },
+  {
+    "id": 16,
+    "name": "ShopEase Retail",
+    "industry": "E-Commerce",
+    "location": "Delhi, India",
+    "founded": 2016,
+    "employees": 320,
+    "website": "https://www.shopeaseretail.com",
+    "description": "Online marketplace connecting local retailers with national customers."
+  },
+  {
+    "id": 17,
+    "name": "CyberFort Solutions",
+    "industry": "Cybersecurity",
+    "location": "Noida, India",
+    "founded": 2012,
+    "employees": 210,
+    "website": "https://www.cyberfortsolutions.com",
+    "description": "Provides end-to-end data protection and network security for enterprises."
+  },
+  {
+    "id": 18,
+    "name": "SkyLink Aviation",
+    "industry": "Aerospace",
+    "location": "Bangalore, India",
+    "founded": 2011,
+    "employees": 260,
+    "website": "https://www.skylinkaviation.com",
+    "description": "Develops aircraft components and maintenance software for aviation firms."
+  },
+  {
+    "id": 19,
+    "name": "BrightFuture EdTech",
+    "industry": "Education",
+    "location": "Kolkata, India",
+    "founded": 2018,
+    "employees": 50,
+    "website": "https://www.brightfutureedtech.com",
+    "description": "Offers adaptive learning platforms for students preparing for competitive exams."
+  },
+  {
+    "id": 20,
+    "name": "UrbanBloom Interiors",
+    "industry": "Design",
+    "location": "Hyderabad, India",
+    "founded": 2014,
+    "employees": 45,
+    "website": "https://www.urbanbloominteriors.com",
+    "description": "Interior design studio focusing on modern and eco-friendly home spaces."
+  },
+  {
+    "id": 21,
+    "name": "QuickPay FinTech",
+    "industry": "Finance",
+    "location": "Gurugram, India",
+    "founded": 2016,
+    "employees": 190,
+    "website": "https://www.quickpayfintech.com",
+    "description": "Provides mobile payment and personal finance management solutions."
+  },
+  {
+    "id": 22,
+    "name": "PureAir Systems",
+    "industry": "Environmental",
+    "location": "Ahmedabad, India",
+    "founded": 2013,
+    "employees": 110,
+    "website": "https://www.pureairsystems.com",
+    "description": "Develops industrial and residential air purification systems."
+  },
+  {
+    "id": 23,
+    "name": "DataWave Analytics",
+    "industry": "Information Technology",
+    "location": "Pune, India",
+    "founded": 2015,
+    "employees": 240,
+    "website": "https://www.datawaveanalytics.com",
+    "description": "Provides big data analytics and AI-driven decision-making tools."
+  },
+  {
+    "id": 24,
+    "name": "SafeRide Mobility",
+    "industry": "Transportation",
+    "location": "Chennai, India",
+    "founded": 2019,
+    "employees": 100,
+    "website": "https://www.saferidemobility.com",
+    "description": "Electric mobility startup offering sustainable ride-sharing solutions."
+  },
+  {
+    "id": 25,
+    "name": "Visionary Studios",
+    "industry": "Media",
+    "location": "Mumbai, India",
+    "founded": 2012,
+    "employees": 150,
+    "website": "https://www.visionarystudios.com",
+    "description": "Film and advertising production company specializing in digital storytelling."
+  }
+  
+    
+  ]
+
+
