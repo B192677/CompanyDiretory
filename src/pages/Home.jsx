@@ -1,8 +1,11 @@
 import React, { useState, useEffect } from "react";
+import Header from "../components/Header";
+import Footer from "../components/Footer";
 import Filters from "../components/Filters";
 import Pagination from "../components/Pagination";
 import Loading from "../components/Loading";
 import companiesData from "../data/companies.json";
+
 
 const Home = () => {
   const [filters, setFilters] = useState({
@@ -93,56 +96,63 @@ const Home = () => {
   }
 
   return (
-    <div className="min-h-screen w-screen bg-[#0f172a] text-white flex flex-col items-center px-4 sm:px-8 py-10 overflow-x-hidden">
-      <h1 className="text-4xl sm:text-5xl font-bold mb-8 text-center">
-        Company Directory
-      </h1>
+    <div className="min-h-screen w-screen bg-[#0f172a] text-white flex flex-col items-center overflow-x-hidden">
+      {/* Header */}
+      <Header />
 
-      <div className="w-full max-w-[1400px] flex flex-col items-center">
-        <Filters
-          companies={companies}
-          filters={filters}
-          setFilters={handleFilterChange}
-          sort={sort}
-          setSort={setSort}
-          resetAll={resetAll}
-        />
-
-        <div className="grid gap-6 mt-10 w-full sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
-          {currentCompanies.length > 0 ? (
-            currentCompanies.map((company) => (
-              <div
-                key={company.id}
-                onClick={() => setSelectedCompany(company)}
-                className="bg-[#1e293b] p-5 rounded-lg shadow-lg border border-gray-700 hover:border-blue-600 hover:cursor-pointer transition"
-              >
-                <h2 className="text-lg font-semibold mb-2">{company.name}</h2>
-                <p className="text-gray-400 text-sm mb-1">
-                  <strong>Industry:</strong> {company.industry}
-                </p>
-                <p className="text-gray-400 text-sm mb-1">
-                  <strong>Location:</strong> {company.location}
-                </p>
-              </div>
-            ))
-          ) : (
-            <p className="text-gray-400 col-span-full text-center mt-8">
-              No companies found.
-            </p>
-          )}
-        </div>
-
-        <div className="mt-10">
-          <Pagination
-            currentPage={currentPage}
-            totalPages={totalPages}
-            onPageChange={(page) => {
-              if (page >= 1 && page <= totalPages) setCurrentPage(page);
-            }}
+      {/* Main Section */}
+      <main className="w-full flex-grow flex flex-col items-center px-4 sm:px-8 py-10">
+        <div className="w-full max-w-[1400px] flex flex-col items-center">
+          <Filters
+            companies={companies}
+            filters={filters}
+            setFilters={handleFilterChange}
+            sort={sort}
+            setSort={setSort}
+            resetAll={resetAll}
           />
-        </div>
-      </div>
 
+          <div className="grid gap-6 mt-10 w-full sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
+            {currentCompanies.length > 0 ? (
+              currentCompanies.map((company) => (
+                <div
+                  key={company.id}
+                  onClick={() => setSelectedCompany(company)}
+                  className="bg-[#1e293b] p-5 rounded-lg shadow-lg border border-gray-700 hover:border-blue-600 hover:cursor-pointer transition"
+                >
+                  <h2 className="text-lg font-semibold mb-2">{company.name}</h2>
+                  <p className="text-gray-400 text-sm mb-1">
+                    <strong>Industry:</strong> {company.industry}
+                  </p>
+                  <p className="text-gray-400 text-sm mb-1">
+                    <strong>Location:</strong> {company.location}
+                  </p>
+                </div>
+              ))
+            ) : (
+              <p className="text-gray-400 col-span-full text-center mt-8">
+                No companies found.
+              </p>
+            )}
+          </div>
+
+          <div className="mt-10">
+            <Pagination
+              currentPage={currentPage}
+              totalPages={totalPages}
+              onPageChange={(page) => {
+                if (page >= 1 && page <= totalPages) setCurrentPage(page);
+              }}
+            />
+          </div>
+        </div>
+      </main>
+
+      {/* Footer */}
+      <Footer />
+
+
+      {/* Company Modal */}
       {selectedCompany && (
         <div className="fixed inset-0 flex items-center justify-center bg-black bg-opacity-60 z-50">
           <div className="bg-[#1e293b] p-6 rounded-lg shadow-lg w-96 relative border border-gray-700">
