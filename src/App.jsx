@@ -4,7 +4,7 @@ import "./App.css";
 
 function App() {
   return (
-    <div className="bg-[#0f172a] min-h-screen text-gray-200">
+    <div className="w-screen h-screen bg-[#0f172a] text-gray-200 overflow-x-hidden overflow-y-auto">
       <Home />
     </div>
   );

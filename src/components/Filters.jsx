@@ -19,11 +19,11 @@ const Filters = ({ companies, filters, setFilters, sort, setSort, resetAll }) =>
     <div className="bg-[#1e293b] p-4 rounded-lg shadow-md text-white">
       <div className="flex flex-col md:flex-row md:items-center md:justify-between gap-4">
       
-        <div className="relative flex-1">
+        <div className="relative flex-1 w-245">
           <Search className="absolute left-3 top-3 text-gray-400" size={18} />
           <input
             type="text"
-            placeholder="Search by Company name...."
+            placeholder="Search by Company Name...."
             value={filters.search}
             onChange={(e) => setFilters({ ...filters, search: e.target.value })}
             className="bg-[#0f172a] w-full pl-10 p-2 rounded-md border border-gray-700 focus:ring-2 focus:ring-blue-500 outline-none text-white placeholder-gray-400"
